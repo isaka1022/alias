@@ -1,0 +1,11 @@
+alias ds="docker-compose start"
+alias drs="docker-compose restart"
+alias rpa="docker-compose run --rm app bundle exec rake ridgepole:apply"
+alias rspec="docker-compose run --rm app rspec rspec"
+alias rc="docker-compose exec app rails c"
+alias rcs="docker-compose exec app rails c --sandbox"
+alias cc="docker-compose exec app rails r 'Rails.cache.clear'"
+alias dl="docker-compose logs -f --tail 100"
+
+alias gb="git branch"
+alias gp="git push"
